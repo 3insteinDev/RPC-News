@@ -1,0 +1,46 @@
+* {
+	padding:0;
+	margin:0;
+	vertical-align:baseline;
+	list-style:none;
+	border:0
+}
+section{
+	overflow: auto;
+}
+.colornav {
+	background-color: #006497 ;
+}
+.colorfooter {
+	background-color: #006497 ;
+}
+#logonav{
+	width: 40px;
+}
+#logofooter{
+	width: 25px;
+}
+
+.bakglobo-father{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	align-items: center;
+	
+	
+}
+.backglobo{
+	width: 400px;
+	height: 200px;
+	background-image: url('../img/back-globo.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	
+}
+.logoprograma{
+	
+}
+.imagemprograma{
+	width: 100 px;
+}
