@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>RPC-News</title>
+</head>
+<body>
+	<%- include ('../partials/header.ejs') %>
+	<%- include ('../partials/main.ejs') %>
+	
+	<section>
+		<div class="container bg-info  my-3 p-2">
+			<div class="d-flex">
+				<div class="accordion accordion-flush border rounded" id="accordionFlushExample">
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="flush-headingOne">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+						  <div class="d-flex justify-content-between">
+							  <img  class="mx-4" src="./img/Jn-globo-logo.jpg" alt="Jn-globo">
+							  <div class="mx-4 my-2"><h3>00:30</h3></div>
+							  <div class="mx-4 my-2"><h3>Jornal da GLobo</h3></div>
+						  </div>
+						</button>
+					  </h2>
+					  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<div class="d-flex">
+								<div class="mx-3">
+									<img class="imagemprograma" style="width: 200px;" src="./img/Jn-globo.jpg" alt="">
+								</div>
+								<div class="mx-3">
+									<p>As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</p>
+								</div>
+							</div>
+						</div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="flush-headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+							<div class="d-flex justify-content-between">
+								<img  class="mx-4" src="./img/Jn-globo-logo.jpg" alt="Jn-globo">
+								<div class="mx-4 my-2"><h3>00:30</h3></div>
+								<div class="mx-4 my-2"><h3>Jornal da GLobo</h3></div>
+							</div>
+						</button>
+					  </h2>
+					  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<div class="d-flex">
+								<div class="mx-3">
+									<img class="imagemprograma" style="width: 200px;" src="./img/Jn-globo.jpg" alt="">
+								</div>
+								<div class="mx-3">
+									<p>As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</p>
+								</div>
+							</div>
+						</div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="flush-headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+							<div class="d-flex justify-content-between">
+								<img  class="mx-4" src="./img/Jn-globo-logo.jpg" alt="Jn-globo">
+								<div class="mx-4 my-2"><h3>00:30</h3></div>
+								<div class="mx-4 my-2"><h3>Jornal da GLobo</h3></div>
+							</div>
+						</button>
+					  </h2>
+					  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<div class="d-flex">
+								<div class="mx-3">
+									<img class="imagemprograma" style="width: 200px;" src="./img/Jn-globo.jpg" alt="">
+								</div>
+								<div class="mx-3">
+									<p>As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</p>
+								</div>
+							</div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			</div>
+		</div>
+	</section>
+
+	<%- include ('../partials/footer.ejs') %>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
