@@ -13,80 +13,102 @@
 	<%- include ('../partials/main.ejs') %>
 	
 	<section>
-		<div class="container bg-info  my-3 p-2">
-			<div class="d-flex">
-				<div class="accordion accordion-flush border rounded" id="accordionFlushExample">
-					<div class="accordion-item">
-					  <h2 class="accordion-header" id="flush-headingOne">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-						  <div class="d-flex justify-content-between">
-							  <img  class="mx-4" src="./img/Jn-globo-logo.jpg" alt="Jn-globo">
-							  <div class="mx-4 my-2"><h3>00:30</h3></div>
-							  <div class="mx-4 my-2"><h3>Jornal da GLobo</h3></div>
+		<div class="container d-flex   my-3 p-2">
+			<div class="row w-100">
+				<div class="container-fluid col-sm-12 col-lg-7  d-flex ">
+					<div class="accordion accordion-flush border rounded" id="accordionFlushExample">
+						<div class="accordion-item">
+						  <h4 class="accordion-header" id="flush-headingOne">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+							  <div class="d-flex justify-content-between">
+								  <img  class="mx-4 logoprograma" src="./img/Jn-globo-logo.jpg" alt="Jn-globo">
+								  <div class="mx-4 my-2"><h4>00:30</h4></div>
+								  <div class="mx-4 my-2"><h4>Jornal da GLobo</h4></div>
+							  </div>
+							</button>
+						  </h4>
+						  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<div class="d-flex">
+									<div class="mx-3">
+										<img class="imagemprograma" style="width: 200px;" src="./img/Jn-globo.jpg" alt="">
+									</div>
+									<div class="mx-3">
+										<p>As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</p>
+									</div>
+								</div>
+							</div>
 						  </div>
-						</button>
-					  </h2>
-					  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-						<div class="accordion-body">
-							<div class="d-flex">
-								<div class="mx-3">
-									<img class="imagemprograma" style="width: 200px;" src="./img/Jn-globo.jpg" alt="">
+						</div>
+						<div class="accordion-item">
+						  <h2 class="accordion-header" id="flush-headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+								<div class="d-flex justify-content-between">
+									<img  class="mx-4 logoprograma" src="./img/Jn-globo-logo.jpg" alt="Jn-globo">
+									<div class="mx-4 my-2"><h4>00:30</h4></div>
+									<div class="mx-4 my-2"><h4>Jornal da GLobo</h4></div>
 								</div>
-								<div class="mx-3">
-									<p>As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</p>
+							</button>
+						  </h2>
+						  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<div class="d-flex">
+									<div class="mx-3">
+										<img class="imagemprograma" style="width: 200px;" src="./img/Jn-globo.jpg" alt="">
+									</div>
+									<div class="mx-3">
+										<p>As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</p>
+									</div>
 								</div>
 							</div>
+						  </div>
+						</div>
+						<div class="accordion-item">
+						  <h2 class="accordion-header" id="flush-headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+								<div class="d-flex justify-content-between">
+									<img  class="mx-4 logoprograma" src="./img/Jn-globo-logo.jpg" alt="Jn-globo">
+									<div class="mx-4 my-2"><h4>00:30</h4></div>
+									<div class="mx-4 my-2"><h4>Jornal da GLobo</h4></div>
+								</div>
+							</button>
+						  </h2>
+						  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<div class="d-flex">
+									<div class="mx-3">
+										<img class="imagemprograma" style="width: 200px;" src="./img/Jn-globo.jpg" alt="">
+									</div>
+									<div class="mx-3">
+										<p>As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</p>
+									</div>
+								</div>
+							</div>
+						  </div>
 						</div>
 					  </div>
-					</div>
-					<div class="accordion-item">
-					  <h2 class="accordion-header" id="flush-headingTwo">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-							<div class="d-flex justify-content-between">
-								<img  class="mx-4" src="./img/Jn-globo-logo.jpg" alt="Jn-globo">
-								<div class="mx-4 my-2"><h3>00:30</h3></div>
-								<div class="mx-4 my-2"><h3>Jornal da GLobo</h3></div>
-							</div>
-						</button>
-					  </h2>
-					  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-						<div class="accordion-body">
-							<div class="d-flex">
-								<div class="mx-3">
-									<img class="imagemprograma" style="width: 200px;" src="./img/Jn-globo.jpg" alt="">
-								</div>
-								<div class="mx-3">
-									<p>As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</p>
-								</div>
+				</div>
+				<div class="container-fluid col-sm-12 col-lg-5 d-flex ">
+					<div class=" max-width-100%">
+						<h2 class="text-center">
+							Programação Agora
+						</h2>
+						<p>Horário: 14:05</p>
+						<div class="card backcard" style="width: 25rem;">
+							<img src="/img/Bial.jpg" class="card-img-top p-2" alt="...">
+							<div class="card-body">
+							<h5 class="card-title">Conversa com Bial</h5>
+							<p class="card-text p-2">Papo com o jogador Hulk, destaque do Campeonato Brasileiro, que faz uma trajetória de vitórias e derrotas no Futebol. Remanescente do fatídico 7 a 1, o craque  brasileiro acumulou experiencia na Europa e agora vive a consagração no Brasil, onde aumenta cada vez mais a pressão para uma convocação do técnico Tite.</p>
+							<a href="#" class="btn btn-primary">Assista</a>
 							</div>
 						</div>
-					  </div>
 					</div>
-					<div class="accordion-item">
-					  <h2 class="accordion-header" id="flush-headingThree">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-							<div class="d-flex justify-content-between">
-								<img  class="mx-4" src="./img/Jn-globo-logo.jpg" alt="Jn-globo">
-								<div class="mx-4 my-2"><h3>00:30</h3></div>
-								<div class="mx-4 my-2"><h3>Jornal da GLobo</h3></div>
-							</div>
-						</button>
-					  </h2>
-					  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-						<div class="accordion-body">
-							<div class="d-flex">
-								<div class="mx-3">
-									<img class="imagemprograma" style="width: 200px;" src="./img/Jn-globo.jpg" alt="">
-								</div>
-								<div class="mx-3">
-									<p>As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</p>
-								</div>
-							</div>
-						</div>
-					  </div>
-					</div>
-				  </div>
+					
+
+	
+				</div>
 			</div>
+			
 		</div>
 	</section>
 

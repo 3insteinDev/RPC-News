@@ -7,16 +7,36 @@
 
 	<div class="container">
 		<div class="nav-scroller py-3 mb-2">
-			<nav class="nav d-flex justify-content-between">
-			  <a class="p-2 link-secondary" href="#">Domingo</a>
-			  <a class="p-2 link-secondary" href="#">Segunda</a>
-			  <a class="p-2 link-secondary" href="#">Terça</a>
-			  <a class="p-2 link-secondary" href="#">Quarta</a>
-			  <a class="p-2 link-secondary" href="#">Quinta</a>
-			  <a class="p-2 link-secondary" href="#">Sexta</a>
-			  <a class="p-2 link-secondary" href="#">Sábado</a>
+			
+			  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" id="buttom-select">
+				Segunda-Feira 30/05/2022
+			  </button>
 			  
-			</nav>
+			  
+			  <div class="offcanvas offcanvas-start back-off" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+				<div class="offcanvas-header text-center">
+				  <h5 class="offcanvas-title  my-2" id="offcanvasExampleLabel">Programação Globo da Semana</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+				  <div>
+					<p class="text-center my-5">Acompanhe a nossa programação desta semana </p>
+				  </div>
+				  <div class="  my-5">
+					<nav class="list-group">
+						<a class=" list-group-item text-center" href="#">Domingo</a>
+						<a class=" list-group-item text-center" href="#">Segunda</a>
+						<a class=" list-group-item text-center" href="#">Terça</a>
+						<a class=" list-group-item text-center" href="#">Quarta</a>
+						<a class=" list-group-item text-center" href="#">Quinta</a>
+						<a class=" list-group-item text-center" href="#">Sexta</a>
+						<a class=" list-group-item text-center" href="#">Sábado</a>
+						
+					  </nav>
+				  </div>
+				</div>
+			  </div>
+			
 		</div>
 	</div>
 </main>
