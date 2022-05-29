@@ -23,3 +23,4 @@ app.listen(porta, ()=>{
 	console.log('Servidor em execução na porta '+ porta);
 	console.log('localhost:3000')
 })
+

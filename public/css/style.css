@@ -5,6 +5,14 @@
 	list-style:none;
 	border:0
 }
+body{
+	background-image: url('../img/fundo63.png');
+	background-size: cover;
+	
+}
+h1{
+	size: 2 rem;
+}
 section{
 	overflow: auto;
 }
@@ -26,21 +34,26 @@ section{
 	display: flex;
 	justify-content: center;
 	align-self: center;
-	align-items: center;
-	
-	
+	align-items: center;	
 }
 .backglobo{
 	width: 400px;
 	height: 200px;
 	background-image: url('../img/back-globo.jpg');
 	background-size:contain;
-	background-repeat: no-repeat;
-	
+	background-repeat: no-repeat;	
 }
 .logoprograma{
-	
+	width: 40px;
 }
 .imagemprograma{
 	width: 100 px;
+}
+
+.back-off{
+	background-color:#05131a;
+	color: white;
+}
+.backcard{
+	background-color: rgba(0, 0, 0, 0.208);
 }
