@@ -50,7 +50,17 @@ Ao acessar o arquivo package.json, na parte de dependências irá aparecer estas
   <img src="./public/img/package-dependencies.png" width="40%" />  
 </p>
 
+### Rodar servidor
 
+Com um dos seguintes comandos será possível iniciar o servidor 
+
+node app
+ ou
+nodemon app
+
+no seguinte endereço:
+
+http://localhost:3000/index
 
 ## Observação
 * Projeto em Andamento ...
