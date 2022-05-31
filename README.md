@@ -2,8 +2,10 @@
 
 ## Objetivo
 
-O objetivo deste Repositório é construir uma Aplicação em Node.js, com a template engine EJS, que consuma uma API que fornece um Objeto contendo a programação do dia escolhido. Foi utilizado as seguintes dependencias:
+O objetivo deste Repositório é construir uma Aplicação que consuma uma API que nos fornece um Objeto contendo a programação do dia escolhido. 
+Além do consumo, fornecer estes dados em um front-end, seguindo um escopo.
 
+Foi desenvolvido em Node.js, com a template engine EJS e as seguintes dependencias:
 <br> * Axios
 <br> * Body-parser
 <br> * Cors
@@ -30,15 +32,15 @@ Para clonar siga os seguintes passos:
 * Use o prompt de comando/ terminal do VSCode e acesse um diretório para o qual deseja clonar
 * Digite git clone (clonar git) e cole a URL que você copiou anteriormente.
 
-git clone https://github.com/3insteinDev/Modelo-Estrutural-MVC.git
+git clone https://github.com/3insteinDev/RPC-News.git
 
 * Após clonado, acesse o diretório pelo terminal, digitando o seguinte comando:
 
-cd ./ESTRUTURA-PARA-PROJETO-COM-MVC
+cd ./RPC-NEWS
 
 
 ### Instalar dependencias
-* Após acessar o diretório Estrutura-para-Projeto-com-MVC, Digite o seguinte comando no terminal:
+* Após acessar o diretório RPC-NEWS, Digite o seguinte comando no terminal:
 
 npm install   ou   npm i
 
@@ -49,15 +51,6 @@ Ao acessar o arquivo package.json, na parte de dependências irá aparecer estas
 </p>
 
 
-## Conteúdo (Diretórios e  Arquivos Iniciais)
-
-<p float="left" align="center">
-  <img src="./public/img/Estrutura-diretorios.png" width="40%" />  
-</p>
-
-<p float="left" align="center">
-  <img src="./public/img/Modelo.png" width="40%" />  
-</p>
 
 ## Observação
-* Após isto Use e Abuse, modifique a estrutura de acordo com a necessidade do seu projeto. Adicione ou retire.
+* Projeto em Andamento ...
